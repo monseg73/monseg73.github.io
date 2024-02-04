@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mi primera página web</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" tyype="text/css" href="css/normalize.css">
+	</head>
+	<body>
+		<header>
+			<hgroup style="text-align:center;color:blue">
+				<h1>Mis recetas preferidas</h2>
+				<h3>Un viaje por la gastronomía andaluza </h3>
+			</hgroup>
+			<h4 style="text-align:center;color:grey">Realizado por tuNombre </h4>
+			<nav> 
+				<ul> Novedades
+					<li>
+						<a href="https://www.clara.es/recetas/recetas-navidad_12381"> Recetas Navideñas </a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.directoalpaladar.com/recetario/64-recetas-halloween-recetario-definitivo"> Recetas Halloween </a>
+					</li>
+					
+				</ul> 
+				<ol>Las mejores recetas de mi abuela
+					<li>Tarta de queso</li>
+						<figure>
+							<figcaption>
+								¿Qué te gusta más la tarta de queso o la de la abuela?
+							</figcaption>
+							<img src="images/tartaqueso.png" alt="tarta de queso">
+						</figure>
+						<audio src="audios/felizcumpleaños.mp3" type="audio/mp3" controls="controls"></audio>
+
+					<li>Tarta de la abuela</li>
+						<figure>
+							<figcaption>
+								¿Qué te gusta más la tarta de queso o la de la abuela?
+							</figcaption>
+							<img src="images/tartaabuela.png" alt="tarta de la abuela">
+						</figure>
+						<video src="videos/cumpleaños.mp4" type="video/mp4" controls="controls"></video>
+						<p> ¿Quiéres ver un video de cómo hacer la tarta de la abuela? </p>
+						<iframe width="853" height="480" src="https://www.youtube.com/embed/pMpooinBw8w" title="Tarta de Galletas de la Abuela. Receta fácil de Postres Sin Horno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							
+						</iframe>
+				</ol>
+				<ul> Otros menús
+					<li>
+						<a href="#ejemplo"> Entrantes ligeros </a>
+					</li>
+					<li>
+						<a href="../ensalada.html"> Ensaladas de pasta </a>
+					</li>
+				</ul>
+			</nav>
+			
+		</header>
+		<section>
+			<article class="articulo">
+				<span>!!Siempre he querido probar las recetas de mi abuela!!</span>
+				<p> Pero nunca he tenido la oportunidad de que me de las cantidades exactas de sus recetas porque nunca se acordaba <strong> los roscos de Semana Santa </strong> estaban super buenos pero no me enseñó cómo los hacía </p>
+				<p> Recuerdo que le salían buenísimos y los enviaba a todos los primos de fuera en cajas de cartón donde ponía en una etiqueta <em> Roscos de la abuela </em> </p>
+				<p> Mi abuela era la <em><strong> la superabuela </strong></em>
+
+				<p> Te voy a contar un secreto que siempre me decía al realizar esta sabrosa tarta: <em> Hay que hacerla con mucho cariño y un poquito de canela</em> pero solo un <i>poquito</i> eh!!</p>
+
+			</article>
+			<article>
+				<div id="panelDerecha">
+					<p> Dicen que cocinar no sólo es entretenimiento sino también relaja, reduce el estrés y desarrollas la creatividad con tus platos</p>
+				
+				</div>
+			</article>
+			<article class="articulo">
+				<p> Con la comida también desarrollas la habilidad social. Seguro que has comido alguna vez con personas que no conoces de nada. ¿Cómo te fue? </p>
+			</article>
+
+			
+
+			<div> Formulario de contacto
+				<form id='form' name='form' method='post' action='contactar.php'>
+	       			<span>Si quieres informarte de alguna receta en especial, envia un mensaje a mi contacto    indicando tu nombre y tu correo	</span>
+	       			<p> Introduce tu nombre: </p>
+					<input id='nombre' name='nombre' type='text' placeholder='contacto_nombre' onfocus='if(this.placeholder =='')this.placeholder ='Introduce tu nombre:'' />
+					<br>
+					<p> Introduce tu email: </p>
+	       			<input id='email' name='email' type='text' placeholder='contacto_email' onfocus='if(this.placeholder =='')this.placeholder ='Introduce tu email'' />
+	       			<br>
+	        		<input type='submit' name='botonEnviar' id='button' value="Enviar" />
+   				</form>
+			</div>
+		</section>
+		<footer id="ejemplo">
+			<br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br>
+			<p>Entrantes ligeros </p>
+			<p>Estamos en el pie de la página. Con # nos vamos a una posición determinada de la página</p>
+		</footer>
+
+
+	</body>
+</html>

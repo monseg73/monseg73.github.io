@@ -1,0 +1,28 @@
+
+header {
+	width: 100%;
+	height: 50%;
+	background: lightpink;
+}
+
+img , video,iframe{
+	width:250px;
+	height:250px;
+	margin:20px;
+}
+
+
+div{
+	width:25%;
+	height: 25%;
+	margin: 20px;
+	background: lightblue;
+}
+
+#panelDerecha{
+	float:right;
+}
+.articulo{
+	background: lightgreen;
+}
+
